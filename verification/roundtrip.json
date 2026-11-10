@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "blender_version": "5.2.3 LTS",
+  "source_sha256": "cb2d762331c5e6a32f2a63ffbf3c24444d6079d1a09461364fc4c9a9f7520aff",
+  "excluded_objects_in_memory_only": [
+    "Cube.029",
+    "Cube.003",
+    "Plane.009",
+    "Plane.010"
+  ],
+  "glb_sha256": "a0c510933c70e6fe44b359e86388635ea5a1bc70bb5a95403e2ac5a2b2ea0f7e",
+  "checks": {
+    "triangle_count_equal": true,
+    "bounds_within_0_0001_blender_units": true,
+    "material_names_equal": true,
+    "source_unchanged": true
+  },
+  "max_bounds_absolute_error": 9.5367431640625e-07,
+  "source_evaluated": {
+    "triangles": 74462,
+    "mesh_occurrences": 29,
+    "bounds_blender_z_up": {
+      "min": [
+        2.7229630947113037,
+        -15.322260856628418,
+        -0.8618630170822144
+      ],
+      "max": [
+        10.24281120300293,
+        1.1413332223892212,
+        2.398245334625244
+      ]
+    },
+    "materials": [
+      "Material",
+      "Material.001",
+      "Material.002",
+      "Material.003",
+      "Material.006",
+      "Material.007",
+      "Material.009",
+      "Material.010",
+      "Material.011",
+      "Material.012",
+      "Material.013",
+      "Material.015"
+    ]
+  },
+  "glb_reimport_evaluated": {
+    "triangles": 74462,
+    "mesh_occurrences": 29,
+    "bounds_blender_z_up": {
+      "min": [
+        2.722963333129883,
+        -15.322260856628418,
+        -0.8618630766868591
+      ],
+      "max": [
+        10.242812156677246,
+        1.1413332223892212,
+        2.398245334625244
+      ]
+    },
+    "materials": [
+      "Material",
+      "Material.001",
+      "Material.002",
+      "Material.003",
+      "Material.006",
+      "Material.007",
+      "Material.009",
+      "Material.010",
+      "Material.011",
+      "Material.012",
+      "Material.013",
+      "Material.015"
+    ]
+  },
+  "not_verified": [
+    "browser appearance",
+    "walk controls",
+    "collision navigation",
+    "macOS installation"
+  ]
+}

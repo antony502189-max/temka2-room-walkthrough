@@ -1,0 +1,29 @@
+{
+  "source": "temka2.blend",
+  "source_sha256": "cb2d762331c5e6a32f2a63ffbf3c24444d6079d1a09461364fc4c9a9f7520aff",
+  "source_matches_supplied_file": true,
+  "automated_tests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "browser": "Codex in-app Chromium on Mac",
+  "verified": [
+    "WebGL2",
+    "walking with W",
+    "drag-to-look yaw and pitch changed",
+    "orbit ceiling hidden",
+    "window viewpoint",
+    "minimap"
+  ],
+  "not_verified": [
+    "Safari",
+    "physical phone"
+  ],
+  "html_sha256": "08a8e51f8662780abc60f1f5ff33227632cdb43785c25cf97bd336273bdb78ac",
+  "geometry_roundtrip": {
+    "triangle_count_equal": true,
+    "bounds_within_0_0001_blender_units": true,
+    "material_names_equal": true,
+    "source_unchanged": true
+  }
+}
